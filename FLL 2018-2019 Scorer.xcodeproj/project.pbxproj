@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFF72DF721488D620036C22A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF72DF621488D620036C22A /* AppDelegate.swift */; };
+		EFF72DF921488D620036C22A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF72DF821488D620036C22A /* ViewController.swift */; };
+		EFF72DFC21488D620036C22A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF72DFA21488D620036C22A /* Main.storyboard */; };
+		EFF72DFE21488D650036C22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF72DFD21488D650036C22A /* Assets.xcassets */; };
+		EFF72E0121488D650036C22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF72DFF21488D650036C22A /* LaunchScreen.storyboard */; };
+		EFF72E0C21488D650036C22A /* FLL_2018_2019_ScorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF72E0B21488D650036C22A /* FLL_2018_2019_ScorerTests.swift */; };
+		EFF72E1721488D650036C22A /* FLL_2018_2019_ScorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF72E1621488D650036C22A /* FLL_2018_2019_ScorerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFF72E0821488D650036C22A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFF72DEB21488D610036C22A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF72DF221488D620036C22A;
+			remoteInfo = "FLL 2018-2019 Scorer";
+		};
+		EFF72E1321488D650036C22A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFF72DEB21488D610036C22A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF72DF221488D620036C22A;
+			remoteInfo = "FLL 2018-2019 Scorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFF72DF321488D620036C22A /* FLL 2018-2019 Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLL 2018-2019 Scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF72DF621488D620036C22A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFF72DF821488D620036C22A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFF72DFB21488D620036C22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFF72DFD21488D650036C22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFF72E0021488D650036C22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFF72E0221488D650036C22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF72E0721488D650036C22A /* FLL 2018-2019 ScorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLL 2018-2019 ScorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF72E0B21488D650036C22A /* FLL_2018_2019_ScorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLL_2018_2019_ScorerTests.swift; sourceTree = "<group>"; };
+		EFF72E0D21488D650036C22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF72E1221488D650036C22A /* FLL 2018-2019 ScorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLL 2018-2019 ScorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF72E1621488D650036C22A /* FLL_2018_2019_ScorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLL_2018_2019_ScorerUITests.swift; sourceTree = "<group>"; };
+		EFF72E1821488D650036C22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFF72DF021488D620036C22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF72E0421488D650036C22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF72E0F21488D650036C22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFF72DEA21488D610036C22A = {
+			isa = PBXGroup;
+			children = (
+				EFF72DF521488D620036C22A /* FLL 2018-2019 Scorer */,
+				EFF72E0A21488D650036C22A /* FLL 2018-2019 ScorerTests */,
+				EFF72E1521488D650036C22A /* FLL 2018-2019 ScorerUITests */,
+				EFF72DF421488D620036C22A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFF72DF421488D620036C22A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFF72DF321488D620036C22A /* FLL 2018-2019 Scorer.app */,
+				EFF72E0721488D650036C22A /* FLL 2018-2019 ScorerTests.xctest */,
+				EFF72E1221488D650036C22A /* FLL 2018-2019 ScorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFF72DF521488D620036C22A /* FLL 2018-2019 Scorer */ = {
+			isa = PBXGroup;
+			children = (
+				EFF72DF621488D620036C22A /* AppDelegate.swift */,
+				EFF72DF821488D620036C22A /* ViewController.swift */,
+				EFF72DFA21488D620036C22A /* Main.storyboard */,
+				EFF72DFD21488D650036C22A /* Assets.xcassets */,
+				EFF72DFF21488D650036C22A /* LaunchScreen.storyboard */,
+				EFF72E0221488D650036C22A /* Info.plist */,
+			);
+			path = "FLL 2018-2019 Scorer";
+			sourceTree = "<group>";
+		};
+		EFF72E0A21488D650036C22A /* FLL 2018-2019 ScorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFF72E0B21488D650036C22A /* FLL_2018_2019_ScorerTests.swift */,
+				EFF72E0D21488D650036C22A /* Info.plist */,
+			);
+			path = "FLL 2018-2019 ScorerTests";
+			sourceTree = "<group>";
+		};
+		EFF72E1521488D650036C22A /* FLL 2018-2019 ScorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFF72E1621488D650036C22A /* FLL_2018_2019_ScorerUITests.swift */,
+				EFF72E1821488D650036C22A /* Info.plist */,
+			);
+			path = "FLL 2018-2019 ScorerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFF72DF221488D620036C22A /* FLL 2018-2019 Scorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF72E1B21488D650036C22A /* Build configuration list for PBXNativeTarget "FLL 2018-2019 Scorer" */;
+			buildPhases = (
+				EFF72DEF21488D620036C22A /* Sources */,
+				EFF72DF021488D620036C22A /* Frameworks */,
+				EFF72DF121488D620036C22A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FLL 2018-2019 Scorer";
+			productName = "FLL 2018-2019 Scorer";
+			productReference = EFF72DF321488D620036C22A /* FLL 2018-2019 Scorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFF72E0621488D650036C22A /* FLL 2018-2019 ScorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF72E1E21488D650036C22A /* Build configuration list for PBXNativeTarget "FLL 2018-2019 ScorerTests" */;
+			buildPhases = (
+				EFF72E0321488D650036C22A /* Sources */,
+				EFF72E0421488D650036C22A /* Frameworks */,
+				EFF72E0521488D650036C22A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFF72E0921488D650036C22A /* PBXTargetDependency */,
+			);
+			name = "FLL 2018-2019 ScorerTests";
+			productName = "FLL 2018-2019 ScorerTests";
+			productReference = EFF72E0721488D650036C22A /* FLL 2018-2019 ScorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFF72E1121488D650036C22A /* FLL 2018-2019 ScorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF72E2121488D650036C22A /* Build configuration list for PBXNativeTarget "FLL 2018-2019 ScorerUITests" */;
+			buildPhases = (
+				EFF72E0E21488D650036C22A /* Sources */,
+				EFF72E0F21488D650036C22A /* Frameworks */,
+				EFF72E1021488D650036C22A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFF72E1421488D650036C22A /* PBXTargetDependency */,
+			);
+			name = "FLL 2018-2019 ScorerUITests";
+			productName = "FLL 2018-2019 ScorerUITests";
+			productReference = EFF72E1221488D650036C22A /* FLL 2018-2019 ScorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFF72DEB21488D610036C22A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Michael Chen";
+				TargetAttributes = {
+					EFF72DF221488D620036C22A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EFF72E0621488D650036C22A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EFF72DF221488D620036C22A;
+					};
+					EFF72E1121488D650036C22A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EFF72DF221488D620036C22A;
+					};
+				};
+			};
+			buildConfigurationList = EFF72DEE21488D610036C22A /* Build configuration list for PBXProject "FLL 2018-2019 Scorer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFF72DEA21488D610036C22A;
+			productRefGroup = EFF72DF421488D620036C22A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFF72DF221488D620036C22A /* FLL 2018-2019 Scorer */,
+				EFF72E0621488D650036C22A /* FLL 2018-2019 ScorerTests */,
+				EFF72E1121488D650036C22A /* FLL 2018-2019 ScorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFF72DF121488D620036C22A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF72E0121488D650036C22A /* LaunchScreen.storyboard in Resources */,
+				EFF72DFE21488D650036C22A /* Assets.xcassets in Resources */,
+				EFF72DFC21488D620036C22A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF72E0521488D650036C22A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF72E1021488D650036C22A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFF72DEF21488D620036C22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF72DF921488D620036C22A /* ViewController.swift in Sources */,
+				EFF72DF721488D620036C22A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF72E0321488D650036C22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF72E0C21488D650036C22A /* FLL_2018_2019_ScorerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF72E0E21488D650036C22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF72E1721488D650036C22A /* FLL_2018_2019_ScorerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFF72E0921488D650036C22A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFF72DF221488D620036C22A /* FLL 2018-2019 Scorer */;
+			targetProxy = EFF72E0821488D650036C22A /* PBXContainerItemProxy */;
+		};
+		EFF72E1421488D650036C22A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFF72DF221488D620036C22A /* FLL 2018-2019 Scorer */;
+			targetProxy = EFF72E1321488D650036C22A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFF72DFA21488D620036C22A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF72DFB21488D620036C22A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFF72DFF21488D650036C22A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF72E0021488D650036C22A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFF72E1921488D650036C22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFF72E1A21488D650036C22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFF72E1C21488D650036C22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22SS7XXMQ7;
+				INFOPLIST_FILE = "FLL 2018-2019 Scorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chen.michael.FLL-2018-2019-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFF72E1D21488D650036C22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22SS7XXMQ7;
+				INFOPLIST_FILE = "FLL 2018-2019 Scorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chen.michael.FLL-2018-2019-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFF72E1F21488D650036C22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22SS7XXMQ7;
+				INFOPLIST_FILE = "FLL 2018-2019 ScorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chen.michael.FLL-2018-2019-ScorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL 2018-2019 Scorer.app/FLL 2018-2019 Scorer";
+			};
+			name = Debug;
+		};
+		EFF72E2021488D650036C22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22SS7XXMQ7;
+				INFOPLIST_FILE = "FLL 2018-2019 ScorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chen.michael.FLL-2018-2019-ScorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL 2018-2019 Scorer.app/FLL 2018-2019 Scorer";
+			};
+			name = Release;
+		};
+		EFF72E2221488D650036C22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22SS7XXMQ7;
+				INFOPLIST_FILE = "FLL 2018-2019 ScorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chen.michael.FLL-2018-2019-ScorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FLL 2018-2019 Scorer";
+			};
+			name = Debug;
+		};
+		EFF72E2321488D650036C22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22SS7XXMQ7;
+				INFOPLIST_FILE = "FLL 2018-2019 ScorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chen.michael.FLL-2018-2019-ScorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FLL 2018-2019 Scorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFF72DEE21488D610036C22A /* Build configuration list for PBXProject "FLL 2018-2019 Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF72E1921488D650036C22A /* Debug */,
+				EFF72E1A21488D650036C22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF72E1B21488D650036C22A /* Build configuration list for PBXNativeTarget "FLL 2018-2019 Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF72E1C21488D650036C22A /* Debug */,
+				EFF72E1D21488D650036C22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF72E1E21488D650036C22A /* Build configuration list for PBXNativeTarget "FLL 2018-2019 ScorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF72E1F21488D650036C22A /* Debug */,
+				EFF72E2021488D650036C22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF72E2121488D650036C22A /* Build configuration list for PBXNativeTarget "FLL 2018-2019 ScorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF72E2221488D650036C22A /* Debug */,
+				EFF72E2321488D650036C22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFF72DEB21488D610036C22A /* Project object */;
+}
