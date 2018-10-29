@@ -41,7 +41,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="768" placeholderIntrinsicHeight="infinite" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IxW-wf-uBU">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="768" placeholderIntrinsicHeight="infinite" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IxW-wf-uBU">
                                 <rect key="frame" x="0.0" y="20" width="768" height="918"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M01 - Space Travel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kqx-A5-ByM">
@@ -224,7 +224,6 @@
                                     <constraint firstItem="2DA-eo-gMj" firstAttribute="leading" secondItem="OLp-0q-6oQ" secondAttribute="leading" id="k2a-6n-8sF"/>
                                     <constraint firstItem="Zsi-Im-d7z" firstAttribute="leading" secondItem="IxW-wf-uBU" secondAttribute="leading" constant="10" id="nYD-9B-SKH"/>
                                     <constraint firstItem="RjV-W2-al1" firstAttribute="leading" secondItem="S7J-ZV-zLN" secondAttribute="leading" id="oCE-XK-bVE"/>
-                                    <constraint firstAttribute="bottom" secondItem="BQU-YT-anX" secondAttribute="bottom" constant="868" id="oXh-cQ-53j"/>
                                     <constraint firstItem="evR-6s-tAy" firstAttribute="leading" secondItem="Zsi-Im-d7z" secondAttribute="leading" id="p56-rp-dkJ"/>
                                     <constraint firstItem="qRf-x5-lIz" firstAttribute="leading" secondItem="jyn-hU-Kzg" secondAttribute="leading" id="po5-Jo-V6t"/>
                                     <constraint firstItem="S7J-ZV-zLN" firstAttribute="top" secondItem="H68-MH-cPS" secondAttribute="bottom" constant="8" symbolic="YES" id="qfh-xO-jbW"/>

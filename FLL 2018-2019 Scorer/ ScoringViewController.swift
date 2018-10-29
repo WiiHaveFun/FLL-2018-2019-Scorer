@@ -210,7 +210,8 @@ class ScoringViewController: UIViewController {
         scrollView.addSubview(mi04_01Seg)
         let leadingSegConstraint01 = NSLayoutConstraint(item: mi04_01Seg, attribute: .leading, relatedBy: .equal, toItem: self.view, attribute: .leading, multiplier: 1.0, constant: 244.0)
         let trailingSegConstraint01 = NSLayoutConstraint(item: mi04_01Seg, attribute: .trailing, relatedBy: .equal, toItem: self.view, attribute: .trailing, multiplier: 1.0, constant: 244.0)
-        view.addConstraints([leadingSegConstraint01, trailingSegConstraint01])
+        let bottomSegConstraint01 = NSLayoutConstraint(item: mi04_01Seg, attribute: .bottom, relatedBy: .equal, toItem: scrollView, attribute: .bottom, multiplier: 1.0, constant: -10.0)
+        view.addConstraints([leadingSegConstraint01, trailingSegConstraint01,bottomSegConstraint01])
     }
     
     
