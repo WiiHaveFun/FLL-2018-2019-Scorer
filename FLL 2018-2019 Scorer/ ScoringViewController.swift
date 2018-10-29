@@ -12,6 +12,8 @@ class ScoringViewController: UIViewController {
     
     //Create mission UI Programically
     
+    
+    
     //M03
     let mi03Title = UILabel(frame: CGRect(x: 10.0, y: 630.0, width: 748.0, height: 36.0))
     let mi03_01Text = UITextView(frame: CGRect(x: 10.0, y: 666.0, width: 560.0, height: 100.0))
@@ -21,24 +23,19 @@ class ScoringViewController: UIViewController {
     let mi03Score = UILabel(frame: CGRect(x: 10.0, y: 854.0, width: 748.0, height: 36.0))
     
     //M04
+    //M03
     let mi04Title = UILabel(frame: CGRect(x: 10.0, y: 898.0, width: 748.0, height: 36.0))
-    let mi04_01Text = UITextView(frame: CGRect(x: 10.0, y: 934.0, width: 560.0, height: 150.0))
+    let mi04_01Text = UITextView(frame: CGRect(x: 10.0, y: 934.0, width: 560.0, height: 100.0))
     let mi04_01Seg = UISegmentedControl(items: ["No", "Yes"])
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        scrollView.contentSize = CGSize(width: 768, height: 1000)
         missionImageViews[0].image = UIImage(named: "M01")
         missionImageViews[1].image = UIImage(named: "M02")
         addParamtersToUIM03()
         addParamtersToUIM04()
         mi03SegControls = [mi03_01Seg, mi03_02Seg]
-        
-    }
-    
-    override func viewDidLayoutSubviews() {
-        
     }
     
     override open var shouldAutorotate: Bool {
@@ -207,7 +204,7 @@ class ScoringViewController: UIViewController {
         let trailingTextConstraint01 = NSLayoutConstraint(item: mi03_01Text, attribute: .trailing, relatedBy: .equal, toItem: self.view, attribute: .trailing, multiplier: 1.0, constant: 198.0)
         view.addConstraints([leadingTextConstraint01, trailingTextConstraint01])
         //don't forget to check each variable for typos. Remember .addTarget()
-        mi04_01Seg.frame = CGRect(x: 244.0, y: 1042.0, width: 280, height: 29)
+        mi04_01Seg.frame = CGRect(x: 244.0, y:  1042.0, width: 280, height: 29)
         mi04_01Seg.selectedSegmentIndex = 0
 //        mi04_01Seg.addTarget(self, action: #selector(mi04SegAction), for: .valueChanged)
         scrollView.addSubview(mi04_01Seg)
@@ -227,7 +224,5 @@ class ScoringViewController: UIViewController {
     @IBOutlet var missionImageViews: [UIImageView]!
     
     @IBOutlet weak var scrollView: UIScrollView!
-    
-    
 }
 
