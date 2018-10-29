@@ -77,8 +77,26 @@ struct Round {
     var M02_02Score = 0
     
     //M03 - 3D Printing
-    var isM03_01Done = false
-    var isM03_02Done = false
+    var isM03_01Done = false {
+        didSet {
+            if isM03_01Done == true {
+                M03_01Score = constants.M03_01Score
+                isM03_02Done = false
+            } else {
+                M03_01Score = 0
+            }
+        }
+    }
+    var isM03_02Done = false {
+        didSet {
+            if isM03_02Done == true {
+                M03_02Score = constants.M03_02Score
+                isM03_01Done = false
+            } else {
+                M03_02Score = 0
+            }
+        }
+    }
     var M03_01Score = 0
     var M03_02Score = 0
     
@@ -177,5 +195,8 @@ struct Constants {
     
     let M02_01Score = 22
     let M02_02Score = 18
+    
+    let M03_01Score = 22
+    let M03_02Score = 18
 }
 

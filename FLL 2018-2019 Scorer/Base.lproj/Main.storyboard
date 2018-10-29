@@ -73,18 +73,8 @@
                                             <action selector="mi01SegAction:" destination="VJp-4x-9Za" eventType="valueChanged" id="dua-H0-d23"/>
                                         </connections>
                                     </segmentedControl>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="2DA-eo-gMj">
-                                        <rect key="frame" x="244" y="188" width="280" height="29"/>
-                                        <segments>
-                                            <segment title="No"/>
-                                            <segment title="Yes"/>
-                                        </segments>
-                                        <connections>
-                                            <action selector="mi01SegAction:" destination="VJp-4x-9Za" eventType="valueChanged" id="9AS-ga-Hj7"/>
-                                        </connections>
-                                    </segmentedControl>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Has the Supply Payload rolled past the First Track Connection?" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoS-VF-QKz">
-                                        <rect key="frame" x="8" y="130" width="560" height="50"/>
+                                        <rect key="frame" x="10" y="130" width="560" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="22D-Kv-lXc"/>
@@ -104,7 +94,7 @@
                                         </connections>
                                     </segmentedControl>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Has the Crew Payload rolled past the First Track Connection?" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H68-MH-cPS">
-                                        <rect key="frame" x="8" y="224" width="560" height="50"/>
+                                        <rect key="frame" x="10" y="224" width="560" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="058-Od-TO9"/>
@@ -188,13 +178,23 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="2DA-eo-gMj">
+                                        <rect key="frame" x="244" y="188" width="280" height="29"/>
+                                        <segments>
+                                            <segment title="No"/>
+                                            <segment title="Yes"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="mi01SegAction:" destination="VJp-4x-9Za" eventType="valueChanged" id="9AS-ga-Hj7"/>
+                                        </connections>
+                                    </segmentedControl>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="fDg-SD-n5J" firstAttribute="top" secondItem="CnV-uf-rwv" secondAttribute="bottom" id="046-bM-CJu"/>
                                     <constraint firstAttribute="trailing" secondItem="BQU-YT-anX" secondAttribute="trailing" constant="198" id="1NG-im-8g4"/>
                                     <constraint firstAttribute="trailing" secondItem="PQL-cn-jUm" secondAttribute="trailing" constant="10" id="2mD-RL-rXP"/>
                                     <constraint firstItem="evR-6s-tAy" firstAttribute="top" secondItem="RjV-W2-al1" secondAttribute="bottom" constant="8" symbolic="YES" id="4nI-bQ-2L6"/>
-                                    <constraint firstItem="hoS-VF-QKz" firstAttribute="leading" secondItem="IxW-wf-uBU" secondAttribute="leadingMargin" id="4oq-eD-Cvu"/>
+                                    <constraint firstItem="hoS-VF-QKz" firstAttribute="leading" secondItem="IxW-wf-uBU" secondAttribute="leadingMargin" constant="2" id="4oq-eD-Cvu"/>
                                     <constraint firstItem="jyn-hU-Kzg" firstAttribute="leading" secondItem="BQU-YT-anX" secondAttribute="trailing" constant="8" id="5fz-ab-thi"/>
                                     <constraint firstItem="PQL-cn-jUm" firstAttribute="top" secondItem="mg8-nh-pzx" secondAttribute="bottom" constant="8" symbolic="YES" id="5sA-LM-6Sw"/>
                                     <constraint firstItem="hoS-VF-QKz" firstAttribute="top" secondItem="OLp-0q-6oQ" secondAttribute="bottom" constant="8" symbolic="YES" id="64L-ff-ufD"/>
@@ -246,8 +246,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="j70-n7-c25" firstAttribute="leading" secondItem="KTf-Jb-YlB" secondAttribute="leading" id="EtV-Gn-Iin"/>
+                            <constraint firstItem="j70-n7-c25" firstAttribute="top" secondItem="IxW-wf-uBU" secondAttribute="bottom" id="QjP-Tn-JXA"/>
                             <constraint firstItem="IxW-wf-uBU" firstAttribute="leading" secondItem="E39-xv-R35" secondAttribute="leading" id="dWn-vY-uO6"/>
-                            <constraint firstItem="j70-n7-c25" firstAttribute="top" secondItem="IxW-wf-uBU" secondAttribute="bottom" id="edL-9t-mNM"/>
                             <constraint firstItem="IxW-wf-uBU" firstAttribute="top" secondItem="KTf-Jb-YlB" secondAttribute="top" id="gQ3-dL-r5n"/>
                             <constraint firstAttribute="trailing" secondItem="IxW-wf-uBU" secondAttribute="trailing" id="iJB-bE-qIG"/>
                             <constraint firstItem="KTf-Jb-YlB" firstAttribute="trailing" secondItem="j70-n7-c25" secondAttribute="trailing" id="nBT-Cf-IA6"/>
@@ -257,6 +257,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Scorer" id="jDr-66-Qwf"/>
                     <connections>
+                        <outlet property="ScrollView" destination="IxW-wf-uBU" id="foJ-lT-pUs"/>
                         <outlet property="scrollView" destination="IxW-wf-uBU" id="wJC-vS-k0b"/>
                         <outlet property="totalScore" destination="j70-n7-c25" id="IRO-rd-3yf"/>
                         <outletCollection property="missionScores" destination="Zsi-Im-d7z" collectionClass="NSMutableArray" id="Sa0-DS-Jpo"/>
